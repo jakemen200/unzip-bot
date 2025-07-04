@@ -11,5 +11,7 @@ MIT License
 "
 
 
-
+echo "APP_ID=$APP_ID"
+echo "BOT_OWNER=$BOT_OWNER"
+echo "LOGS_CHANNEL=$LOGS_CHANNEL"
 exec python -m unzipbot
