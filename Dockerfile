@@ -70,6 +70,6 @@ RUN git clone -b v7 https://github.com/EDM115/unzip-bot.git /app && \
     rm -rf /tmp/unrar && \
     source /venv/bin/activate
 
-COPY .env /app/.env
+
 
 ENTRYPOINT ["/bin/bash", "/app/start.sh"]
